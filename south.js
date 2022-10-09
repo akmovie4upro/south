@@ -36,7 +36,7 @@ xhr.onload = function() {
                 <div class="d-flex justify-content-between align-items-end">
                             
                               <div class="btn-group">
-                                <a href="${element._1080P}"> <button type="button" class="btn btn-outline-primary " style="width: 100px;">1080P</button></a>
+                                <a href="${element._1080P}"> <button type="button" class="btn btn-outline-primary " style="width: 200px;">1080P</button></a>
                               </div>
                       
                             </div>  
@@ -45,7 +45,7 @@ xhr.onload = function() {
                             <div class="d-flex justify-content-between align-items-end my-1 ">
                                           
                                             <div class="btn-group">
-                                              <a href="${element._720P}"> <button type="button" class="btn btn-outline-primary " style="width: 100px;">720P</button></a>
+                                              <a href="${element._720P}"> <button type="button" class="btn btn-outline-primary " style="width: 200px;">720P</button></a>
                                             </div>
                                         </div>
               
@@ -53,30 +53,37 @@ xhr.onload = function() {
                 <div class="d-flex justify-content-between align-items-end">
                                           
                                             <div class="btn-group">
-                                              <a href="${element._480P}"> <button type="button" class="btn btn-outline-primary " style="width: 100px;">480P</button></a>
+                                              <a href="${element._480P}"> <button type="button" class="btn btn-outline-primary " style="width: 200px;">480P</button></a>
                                             </div>
                                         </div>
+                                      
+                                      
+               
+              <div class="d-flex justify-content-between align-items-end my-4">
+              
+                <div class="btn-group">
+
+                <a href="${element.Trailer}">
+                  <button type="button" class="btn btn-outline-success" style="width: 200px;">TRAILER</button>
+                  </a>
+
+                </div>
+                
+              </div>  
+                                        
+                                        
+                
               
               
               
               <div class="d-flex justify-content-between align-items-end my-4">
               
                 <div class="btn-group">
-                
-                
-                
-               
-                
-                
-                <a href="${element.Trailer}">
-                  <button type="button" class="btn btn-outline-success" style="width: 100px;">TRAILER</button>
+
+                <a href="https://youtu.be/FMqpr-3DsSM">
+                  <button type="button" class="btn btn-outline-danger" style="width: 200px;">How to Download / Open</button>
                   </a>
-                 
-                  
-                  
-                  
-                  
-                  
+
                 </div>
                 <small class="text-muted">${element.Time} ${element.Am_Pm}</small>
               </div>
