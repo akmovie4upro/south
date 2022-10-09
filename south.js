@@ -81,7 +81,7 @@ xhr.onload = function() {
                 <div class="btn-group">
 
                 <a href="https://youtu.be/FMqpr-3DsSM">
-                  <button type="button" class="btn btn-outline-danger" style="width: 200px;">How to Download / Open</button>
+                  <button type="button" class="btn btn-outline-danger" style="width: 200px;">How to Open link</button>
                   </a>
 
                 </div>
